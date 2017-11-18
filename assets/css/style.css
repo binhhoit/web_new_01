@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'SF-UI';
+    src: url(../fonts/SF-UI-Display-Black.otf)  format("opentype");
+}
+@font-face {
+    font-family: 'Gilroy_Bold';
+    src: url(../fonts/SVN-Gilroy_Bold.otf)  format("opentype");
+}
+@font-face {
+    font-family: 'SF-UI-Bold';
+    src: url(../fonts/SF-UI-Display-Bold.otf)  format("opentype");
+}
+@font-face {
+    font-family: 'NotoSerifBold';
+    src: url(../fonts/NotoSerif-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'NotoSerifBoldItalic';
+    src: url(../fonts/NotoSerif-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'NotoSerifItalic';
+    src: url(../fonts/NotoSerif-Italic.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: 'NotoSerifRegular';
+    src: url(../fonts/NotoSerif-Regular.ttf) format('truetype');
+}
+body.night{
+	background: #111;
+}
+#follower{
+	cursor:  url('../img/h9.png'), auto;
+}
+.header{
+	position: relative;
+}
+.header .col{
+	padding: 0px;
+}
+.logo.nav-down{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	background: white;
+}
+.content-header{
+	background-image: url('../img/h1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vien{
+	text-align: center;
+}
+.vien-50{
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	border: 2px solid #d38e0d;
+}
+.vien .vien-30{
+	margin-top: 10px; 
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+	border: 2px solid #d38e0d;
+}
+.des .hd{
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "Gilroy_Bold";
+}
+.des p{
+	margin-top: 30px;
+	font-size: 16px;
+}
+.des-content{
+	text-align: center;
+} 
+.des-content .top{
+	font-size: 34px;
+	margin-bottom: 0px;
+	color: #f5a623;
+	font-weight: bold;
+}
+.des-content .bottom{
+	font-size: 44px;
+	color: #f5a623;
+	margin-top: 7px;
+	font-family: "SF-UI";
+	margin-bottom: 0px;
+}
+.img-content{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.des .des-content .vien .vien-30 {
+    border: 2px solid #f5a623;
+}
+.title-content{
+	font-size: 49px;
+	text-align: center;
+	font-family: 'SF-UI';
+	padding-top: 220px;
+	line-height: 1.5;
+}
+.hd-hd{
+	font-size: 16px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-family: "NotoSerifItalic";
+}
+.img-header img{
+	width: 420px;
+	display: block;
+	padding-top: 100px;
+}
+.des{
+	text-align: justify;
+}
+.hg-58{
+	height: 58px;
+}
+.thks {
+	font-weight: bold;
+	font-family: 'NotoSerifBold';
+}
+ footer{
+ 	width: 650px;
+ 	margin: auto;
+ 	margin-top: 30px;
+ 	border-top: 2px solid black;
+ 	line-height: 1.8;
+ 	font-family: 'NotoSerifRegular';
+
+ }
+ footer .col-md-6{
+ 	padding-right: 0px;
+ 	padding-left: 0px;
+ }
+ footer .fb-left{
+ 	text-align: right;
+ 	padding-top: 15px;
+
+ }
+ footer .fb-right{
+ 	padding-top: 15px;
+ 	padding-left: 10px;
+ }
+.logo img{
+	padding: 5px;
+	display: block;
+	width: 120px;
+}
+.hg-58{
+	height: 43px;
+	width: 100%;
+}
+ .border-des-1 {
+     border: 2px solid #eea121;
+     margin-top: 43px;
+     margin-bottom: 43px;
+     position: relative;
+     width: 300px;
+     float: right;
+     margin-top: 204px;
+ }
+ .description-img{
+ 	text-align: center;
+ }
+ .border-des-1:before {
+     content: "";
+     background-image: url(../img/nhay.png);
+     background-position: top left;
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     width: 36px;
+     height: 29px;
+     display: block;
+     position: absolute;
+     left: -18px;
+     top: -10px;
+     background-color: white;
+ }
+.border-des-2  .des p{
+	font-size: 26px;
+}
+.border-des-2  .des p.hd-hd{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.description-img .img{
+	text-align: left;
+}
+.border-des-2 .vien{
+	text-align: left;
+}
+.border-des-2 .vien .vien-30{
+	margin-top: 10px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    border: 2px solid #d38e0d;
+}
+.content-important .border-des-1{
+	float: none;
+	margin-top: 0px;
+	margin-left:  50px;
+	margin-right: 50px;
+}
+.content-important p.hd-hd{
+	margin-top: 0px;
+}
+.border-des-2 {
+     margin: 1px;
+     border: 1px solid #eea121;
+     padding: 20px;
+}
+.border-des-1:after {
+     content: "";
+     background-image: url(../img/nhay2.png);
+     background-position: bottom right;
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     width: 36px;
+     height: 29px;
+     display: block;
+     position: absolute;
+     right: -18px;
+     bottom: -10px;
+     background-color: white;
+ }
+@media (min-width: 768px) and (max-width: 1024px){
+	img{
+		max-width: 100%;
+	}
+}
+@media (max-width: 767px){
+	footer{
+		width:auto;
+	}
+	footer .fb-left{
+		float: left;
+		width: 50%;
+	}
+	footer .fb-right{
+		float: left;
+		width: 50%;
+	}
+	 
+	img{
+		width: 100%;
+	}
+	.title-content{
+		padding-top: 10px;
+	}
+	.title-content{
+		font-size: 20px;
+	}
+	.vien-50{
+		width: 100px;
+	}
+	.vien .vien-30{
+		width: 70px;
+	}
+	.img-header img{
+		width: 100%;
+	    padding-top: 50px;
+	}
+	.des-content .top{
+		font-size: 20px;
+	}
+	.des-content .bottom{
+		font-size: 25px;
+	}
+	.border-des-1{
+		margin: 0px;
+		width: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.content-important .border-des-1{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.img-fb img{
+		display: inline-block;
+		width: 100px;
+		margin-left: 10px;
+	}
+}
